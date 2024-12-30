@@ -1,0 +1,191 @@
+.custom-classes-tab-ul {
+	padding:0 !important;
+	margin:0 !important;
+	display:flex;
+}
+
+.custom-classes-tab-ul li {
+	flex: 1;
+	list-style:none;
+}
+
+.custom-classes-tab-ul li a {
+	color: #EFBD3D;
+	text-align: center;
+	font-family: "Nexa Bold", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1;
+	text-transform: uppercase;
+	padding: 15px;
+	border: 2px solid #EFBD3D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.custom-classes-tab-ul li a.active {
+	background:#EFBD3D;
+	color:#fff;
+}
+
+.custom-classes-tab-ul li a.active:hover {
+	color:#fff !important;
+}
+
+.custom-classes-tab-ul li a:hover {
+	color:#FFE08A;
+}
+
+.custom-classes-tab-ul li:first-of-type  a{
+	border-radius:50px 0px 0px 50px;
+}
+
+.custom-classes-tab-ul li:last-of-type  a {
+	border-radius:0px 50px 50px 0px;
+}
+
+.custom-classes-tab-content-row {
+	display:none;
+	grid-template-columns:1fr 1fr;
+	align-items:center;
+}
+
+.custom-classes-tab-content-row.active {
+	display:grid;
+}
+
+html body .custom-classes-tab-content-title {
+	color: #EFBD3D;
+	font-family: "Nexa Bold", sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+	text-transform:uppercase;
+}
+
+html body .custom-classes-tab-content-text p {
+	color: #FFF;
+	font-family: "Nexa Bold", sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+html body .custom-classes-tab-content-btn-wrap a {
+	display:inline-flex; 
+	
+	padding-top: 15px;
+	padding-right: 45px;
+	padding-bottom: 15px;
+	padding-left: 45px;
+	border-radius:50px;
+	
+	color: #282928;
+	text-align: center;
+	font-family: "Nexa Bold", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1;
+
+	background:#FFF;
+	text-transform:uppercase;
+}
+
+html body .custom-classes-tab-content-btn-wrap a:hover {
+	background:#E8E8E8;
+}
+
+.custom-classes-tab-content-text {
+	margin-top:2rem;
+}
+
+.custom-classes-tab-content-btn-wrap {
+	margin-top:3rem;
+}
+
+.custom-classes-tab-content-left {
+	text-align:center;
+}
+
+.custom-classes-tab-content-left,
+.custom-classes-tab-content-right {
+	padding:0 2rem;
+}
+
+.custom-classes-tab-content-row {
+	margin-top:6rem;
+}
+
+/* Dark Content Theme */
+html body .custom-classes-tab-content-wrap.dark .custom-classes-tab-content-title {
+	color: #282928 !important;
+}
+
+html body .custom-classes-tab-content-wrap.dark .custom-classes-tab-content-text p {
+	color: #282928;
+}
+
+html body .custom-classes-tab-content-wrap.dark .custom-classes-tab-content-text p {
+	color: #282928;
+}
+
+html body .custom-classes-tab-content-wrap.dark .custom-classes-tab-content-btn-wrap a {
+	background:#282928;
+	color:#fff;
+}
+
+html body .custom-classes-tab-content-wrap.dark .custom-classes-tab-content-btn-wrap a:hover {
+	background:#3a3a3a;
+	color:#fff;
+}
+
+/* Purple Theme */
+.custom-classes-tab-wrap.purple .custom-classes-tab-ul li a {
+	color:#9A72A6;
+	border-color:#9A72A6;
+}
+
+.custom-classes-tab-wrap.purple .custom-classes-tab-ul li a.active {
+	color:#fff !important;
+	background:#9A72A6;
+}
+
+.custom-classes-tab-wrap.purple .custom-classes-tab-ul li a:hover {
+	color: #B28DBA;
+}
+
+html body .custom-classes-tab-wrap.purple .custom-classes-tab-content-title {
+	color: #B28DBA;
+}
+
+html body .custom-classes-tab-wrap.purple .custom-classes-tab-content-wrap.dark .custom-classes-tab-content-title .sep-text {
+	color:#B28DBA;
+}
+
+/* Green Theme */
+.custom-classes-tab-wrap.green .custom-classes-tab-ul li a {
+	color:#9DAC87;
+	border-color:#9DAC87;
+}
+
+.custom-classes-tab-wrap.green .custom-classes-tab-ul li a.active {
+	color:#fff !important;
+	background:#9DAC87;
+}
+
+.custom-classes-tab-wrap.green .custom-classes-tab-ul li a:hover {
+	color: #B7C7A4;
+}
+
+html body .custom-classes-tab-wrap.green .custom-classes-tab-content-title {
+	color: #9DAC87;
+}
+
+html body .custom-classes-tab-wrap.green .custom-classes-tab-content-wrap.dark .custom-classes-tab-content-title .sep-text {
+	color:#9DAC87;
+}
+
+/* Yellow Theme */
+html body .custom-classes-tab-wrap.yellow .custom-classes-tab-content-wrap.dark .custom-classes-tab-content-title .sep-text {
+	color:#EFBD3D;
+}

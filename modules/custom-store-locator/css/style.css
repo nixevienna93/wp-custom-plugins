@@ -1,0 +1,290 @@
+.custom-store-locator-wrap {
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+}
+
+.custom-store-locator-left {
+	max-width:33.3%;
+	flex:0 0 33.3%;
+}
+
+.custom-store-locator-right {
+	max-width:66.6%;
+	flex:0 0 66.6%;
+}
+
+/* Search Input */
+html body .custom-store-locator-search-wrap {
+	display: flex;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+html body .custom-store-locator-search-input {
+	flex:1;
+}
+
+html body .custom-store-locator-search-input input {
+	border: 2px solid #282928;
+	border-radius: 50px;
+	color: #282928;
+	height: 46px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	padding: 0 2rem;
+}
+
+html body .custom-store-locator-search-btn {
+	margin-left:1rem !important;
+}
+
+html body .custom-store-locator-left {
+	padding-right:6rem;
+}
+
+html body .custom-store-locator-search-btn button {
+	padding:0;
+	width: 48px;
+	height: 46px;
+	border-radius: 50px !important;
+	background: #282928 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition:all 0.3s ease;
+}
+
+html body .custom-store-locator-search-btn button:hover {
+	background:#3a3b3d !important;
+}
+
+html body .custom-store-locator-list-header {
+	display:flex;
+}
+
+html body .custom-store-locator-list-title {
+	color: #282928;
+	font-family: "Nexa Bold", sans-serif;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+html body .custom-store-locator-list-type,
+html body .custom-store-locator-list-address {
+	color: #282928;
+	font-family: "Nexa Bold", sans-serif;
+	font-size: 15px;
+}
+
+html body .custom-store-locator-list-content {
+	margin-left:2rem;
+}
+
+html body .custom-store-locator-list-marker {
+	margin-top:10px;
+}
+
+html body .custom-store-locator-list-btn-wrap {
+	margin-top:3rem;
+}
+
+html body .custom-store-locator-list {
+	cursor: pointer;
+	background: transparent;
+	padding:2rem;
+	transition:all 0.3s ease;
+}
+
+html body .custom-store-locator-list:hover,
+html body .custom-store-locator-list.active {
+	background: #f1f1f1;
+}
+
+html body .custom-store-locator-lists {
+	height:600px;
+	overflow:scroll;
+}
+/* Button */
+html body .custom-store-locator-list-btn-wrap button {
+	width: 100% !important;
+	background: #9A72A6 !important;
+	border-color: #9A72A6 !important;
+	color: #FFF !important;
+	text-align: center !important;
+	font-family: "Nexa Bold", sans-serif !important;
+	font-size: 14px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 46px;
+	transition:all 0.3s ease !important;
+}
+
+html body .custom-store-locator-list-btn-wrap button:hover {
+	background:#B793C3 !important;
+	border-color: #B793C3 !important;
+}
+
+html body .custom-store-locator-list-type span {
+	text-transform:capitalize !important;
+}
+
+/* Button Yellow */
+html body .custom-store-locator-list-btn-wrap button.yellow {
+	background:#EFBD3D !important;
+	border-color: #EFBD3D !important;
+}
+
+html body .custom-store-locator-list-btn-wrap button.yellow:hover {
+	background:#F7D264 !important;
+	border-color: #F7D264 !important;
+}
+
+/* Button Green */
+html body .custom-store-locator-list-btn-wrap button.green {
+	background:#9DAC87 !important;
+	border-color: #9DAC87 !important;
+}
+
+html body .custom-store-locator-list-btn-wrap button.green:hover {
+	background:#B8C79E !important;
+	border-color: #B8C79E !important;
+}
+
+/* Map */
+#custom-store-locator-map {
+	width:100%;
+	height:771px;
+	background:#333;
+}
+
+/* Marker Info Window */
+.custom-store-locator-marker-info {
+	text-align:center;
+}
+
+.custom-store-locator-title {
+	font-family: 'Nexa Bold', sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.custom-store-locator-type {
+	font-family: 'Nexa Bold', sans-serif;
+	text-transform: capitalize;
+	margin-top: 0.25rem;
+	font-size: 15px;
+}
+
+.custom-store-locator-address {
+	font-size: 13px;
+	font-family: 'Nexa Bold', sans-serif;
+	max-width: 200px;
+}
+
+.custom-store-locator-btn-wrap a {
+	background: #9A72A6 !important;
+	border-color: #9A72A6 !important;
+	color: #FFF !important;
+	text-align: center !important;
+	font-family: "Nexa Bold", sans-serif !important;
+	font-size: 10px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 36px;
+	transition: all 0.3s ease !important;
+	text-transform: uppercase;
+	border-radius: 50px;
+	display: inline-flex;
+	width: auto !important;
+	padding: 0 2rem;
+	margin-top: 1rem;
+}
+
+.custom-store-locator-btn-wrap a:hover {
+	background: #B793C3 !important;
+	border-color: #B793C3 !important;
+}
+
+/* Yellow */
+.custom-store-locator-btn-wrap a.yellow {
+	background: #EFBD3D !important;
+	border-color: #EFBD3D !important;
+}
+
+.custom-store-locator-btn-wrap a.yellow:hover {
+	background: #F7D264 !important;
+	border-color: #F7D264 !important;
+}
+
+/* Green */
+.custom-store-locator-btn-wrap a.green {
+	background: #9DAC87 !important;
+	border-color: #9DAC87 !important;
+}
+
+.custom-store-locator-btn-wrap a.green:hover {
+	background: #B8C79E !important;
+	border-color: #B8C79E !important;
+}
+
+/* Full Width */
+.custom-store-locator-wrap.full .custom-store-locator-right {
+	max-width:100%;
+	flex:0 0 100%;
+}
+
+.custom-store-locator-wrap.full #custom-store-locator-map {
+	height:462px !important;
+}
+
+@media (max-width:1180px) {
+	html body .custom-store-locator-list-title {
+		line-height:1.2;
+	}
+	
+	html body .custom-store-locator-left {
+		padding-right:2rem;
+	}
+	
+	html body .custom-store-locator-list-title {
+		font-size:24px;
+	}
+}
+/* END 1180px */
+
+@media (max-width:910px) {
+	html body .custom-store-locator-left {
+		max-width: 100%;
+		flex: 0 0 100%;
+		width: 100%;
+		padding-right: 0;
+		margin-top: 4rem;
+	}
+	
+	.custom-store-locator-right {
+		max-width: 100%;
+		flex: 0 0 100%;
+		margin-top:4rem;
+	}
+	
+	#custom-store-locator-map,
+	html body .custom-store-locator-lists {
+		height:350px;
+	}
+}
+/* END 910px */
+
+@media (max-width:600px) {
+	html body .custom-store-locator-left {
+		padding:0 2rem;
+	}
+	
+	#custom-store-locator-map, html body .custom-store-locator-lists {
+		height:300px;
+	}
+}
+/* END 600px */
